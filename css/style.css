@@ -1,0 +1,9 @@
+/* 預設顯示圖片為彩色 */
+.color-toggle {
+    transition: filter 0.3s ease;
+}
+
+/* 灰階效果 */
+.gray-scale {
+    filter: grayscale(100%);
+}

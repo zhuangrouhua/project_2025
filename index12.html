@@ -23,7 +23,17 @@
     <link rel="stylesheet" href="plugins/css/all.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <!-- Custom styles -->
-    <style></style>
+
+
+    <style>
+        .image-container img {
+            transition: filter 0.3s ease; /* 使變灰階的過渡效果更加平滑 */
+        }
+
+        .image-container img:hover {
+            filter: grayscale(100%); /* 鼠標懸停時變成灰階 */
+        }
+    </style>
   </head>
 
   <body>
@@ -32,8 +42,7 @@
 
 
 
-
-
+        
         <!-- navbar -->
         
 
@@ -83,7 +92,6 @@
           </div>
       </nav>
         <!--Main Navigation-->
-
     
 
 
@@ -108,42 +116,60 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- Container -->
           <div class="container my-5 py-5">
 
             <section>
               <div class="row">
 
                 <!-- 左邊：圖片區（8欄） -->
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-7 col-md-12">
 
-                  <div class="row mb-4">
-                    <!-- 大圖 1 -->
-                    <div class="col-lg-6 col-md-6 mb-2">
-                      <div class="bg-image shadow-1-strong rounded-5 hover-zoom">
-                        <img src="img/1.jpg" class="w-100 rounded-4" />
-                      </div>
+                  <div class="row">
+
+                    <div class="col-lg-6 col-md-6 mb-4">
+                      <p class="mb-4" style="font-size: 65px; color: pink;"><strong>
+                        各國冰淇淋<br>比較分析
+                        </strong>
+                      </p>
                     </div>
 
-                    <!-- 大圖 2 -->
-                    <div class="col-lg-6 col-md-6 mb-2">
-                      <div>
-                        <img src="img/2.jpg" class="w-100 rounded-4" />
+
+                    <div class="col-lg-6 col-md-6 mb-4">
+                      <div class="image-container">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/new/img(1).jpg" class="w-100"/>
                       </div>
                     </div>
                   </div>
 
-                  <div class="row mb-4">
-                    <!-- 小圖 1 -->
+
+                  <div class="row">
+
                     <div class="col-lg-6 col-md-6 mb-4">
-                      <div>
-                        <img src="img/3.png" class="w-100 rounded-4" />
+                      <div class="image-container">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/new/img(1).jpg" class="w-100"/>
                       </div>
                     </div>
 
-                    <!-- 小圖 2 -->
                     <div class="col-lg-6 col-md-6 mb-4">
-                      <div class="bg-image shadow-1-strong rounded-5 hover-zoom">
-                        <img src="img/4.jpg" class="w-100 rounded-4" />
+                      <div class="image-container">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/new/img(1).jpg" class="w-100"/>
                       </div>
                     </div>
                   </div>
@@ -151,22 +177,26 @@
                 </div>
 
                 <!-- 右邊：文字區（4欄） -->
-                <div class="col-lg-6 col-md-12 d-flex align-items-center ps-lg-5 mb-4">
-                  <div>
+                <div class="col-lg-5 col-md-12">
+                  
+                 
 
-                    <h3 class="fw-bold mb-4" style="font-size: 38px;">推薦個人化冰淇淋風味選擇</h3>
-
-                    <p class="mb-4" style="font-size: 28px;">
-                      如果能用水果改善心情，你會想試試嗎？<br>
-                      這兩張放大的圖片是我們精心推薦的口味！
+                    <h2 class="fw-bold mb-4" style="color: orange;">義式冰淇淋</h2>
+                    
+                    <p class="mb-4" style="font-size: 25px;">
+                      義式冰淇淋以細膩且濃郁的口感為特色，質地緻密，脂肪含量較低。
+                      它強調使用天然食材，呈現食材的原味，與傳統冰淇淋不同，義式冰淇淋的冰凍感較輕盈，帶來柔和持久的風味。
+                      由於製作過程中攪拌速度較慢，空氣含量較少，使其口感更加緻密，充分展現每種食材的鮮明特徵。
                     </p>
+                    
+                    
 
-                    <div class="d-flex gap-3 mt-4">
-                      <a class="btn btn-warning px-5 py-3 fw-bold" href="index07 copy.html">是</a>
-                      <a class="btn btn-warning px-5 py-3 fw-bold" href="index07.html">否</a>
-                    </div>
 
-                  </div>
+                    
+                       
+                    
+
+
                 </div>
 
               </div>
@@ -175,11 +205,17 @@
           </div>
 
 
+            
 
 
 
 
 
+
+
+
+
+          <!-- Remove the container if you want to extend the Footer to full width. -->
           <div class="container-fluid my-5">
 
             <footer class="bg-primary text-center text-lg-start text-white">
@@ -195,7 +231,7 @@
                           loading="lazy" />
                     </div>
 
-                    <h5 class="text-center">組長:莊柔樺</h5>
+                    <p class="text-center">組長:莊柔樺</p>
 
                     <ul class="list-unstyled d-flex flex-row justify-content-center">
                       <li>
@@ -227,7 +263,7 @@
                           loading="lazy" />
                     </div>
 
-                    <h5 class="text-center">組員:黃瀅蓁</h5>
+                    <p class="text-center">組員:黃瀅蓁</p>
 
                     <ul class="list-unstyled d-flex flex-row justify-content-center">
                       <li>
@@ -262,7 +298,7 @@
                           loading="lazy" />
                     </div>
 
-                    <h5 class="text-center">組員:林妙姍</h5>
+                    <p class="text-center">組員:林妙姍</p>
 
                     <ul class="list-unstyled d-flex flex-row justify-content-center">
                       <li>
@@ -299,8 +335,10 @@
             </footer>
 
           </div>
+          <!-- End of .container -->
+              
 
-            
+
     
     
   </body>
@@ -311,4 +349,5 @@
   <script type="text/javascript" src="plugins/js/all.min.js"></script>
   <!-- Custom scripts -->
   <script type="text/javascript"></script>
+  <script src="script.js"></script>
 </html>
