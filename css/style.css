@@ -7,3 +7,151 @@
 .gray-scale {
     filter: grayscale(100%);
 }
+
+
+.navbar-light .navbar-brand {
+  color: #4f4f4f;
+}
+
+.image-wrapper,
+.image-wrapper-2 {
+  display: block;
+  height: auto;
+  overflow: visible;
+  padding-left: 50px;
+  position: relative;
+}
+
+.image-wrapper:before,
+.image-wrapper-2:before {
+  background-image: url('https://mdbootstrap.com/img/Photos/new-templates/podcaster/dots-pink-2.png');
+  height: 150px;
+  left: -27px;
+  top: -48px;
+  width: 150px;
+  background-size: contain;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: '';
+}
+
+.image-wrapper img,
+.image-wrapper-2 img {
+  display: block;
+  height: auto;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.page-header {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  z-index: 1;
+}
+
+.image-wrapper:after {
+  background-image: url('https://mdbootstrap.com/img/Photos/new-templates/podcaster/dots-pink-3.png');
+  height: 190px;
+  right: -95px;
+  top: 84%;
+  width: 190px;
+  background-size: contain;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: '';
+}
+
+.image-wrapper-2:after {
+  background-image: url('https://mdbootstrap.com/img/Photos/new-templates/podcaster/dots-pink-3.png');
+  height: 150px;
+  right: -87px;
+  top: 307px;
+  width: 150px;
+  background-size: contain;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: '';
+}
+
+.paragraph-wrapper:before {
+  display: block;
+  height: auto;
+  overflow: visible;
+  position: relative;
+  background-image: url('https://mdbootstrap.com/img/Photos/new-templates/podcaster/dots-pink.png');
+  height: 125px;
+  left: 3%;
+  top: 554px;
+  width: 125px;
+  background-size: contain;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: '';
+  z-index: -1;
+}
+
+.paragraph-wrapper p {
+  background-color: #fff;
+}
+
+.btn-purple,
+.btn-purple:hover,
+.btn-purple:focus,
+.btn-purple:active,
+.btn-purple.active {
+  background-color: #54456b;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-secondary.active {
+  background-color: #db6930;
+}
+
+.bg-purple {
+  background-color: #54456b;
+}
+
+.link-purple {
+  color: #54456b;
+  transition: all 0.3s ease;
+}
+
+.link-purple:hover {
+  color: #db6930;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active {
+  --mdb-btn-outline-hover-border-color: #db6930;
+  color: #db6930;
+  border-color: #db6930;
+}
+
+
+.text-pink {
+  color: #bc9ca1;
+}
+
+.text-orange {
+  color: #db6930;
+}
+
+.bg-orange {
+  background-color: #db6930;
+}
+
+.bg-pink {
+  background-color: #bc9ca1;
+}
