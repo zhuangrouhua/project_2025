@@ -42,7 +42,7 @@
       .image-wrapper:before,
       .image-wrapper-2:before {
         background-image: url('https://mdbootstrap.com/img/Photos/new-templates/podcaster/dots-pink-2.png');
-        height: 150px;
+        height: 125px;
         left: -27px;
         top: -48px;
         width: 150px;
@@ -70,10 +70,10 @@
 
       .image-wrapper:after {
         background-image: url('https://mdbootstrap.com/img/Photos/new-templates/podcaster/dots-pink-3.png');
-        height: 190px;
+        height: 150px;
         right: -95px;
         top: 84%;
-        width: 190px;
+        width: 150px;
         background-size: contain;
         position: absolute;
         background-position: center;
