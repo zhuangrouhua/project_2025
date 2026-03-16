@@ -1,56 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Material Design for Bootstrap</title>
-    <!-- MDB icon -->
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-    <!-- Google Fonts Roboto -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-    />
-    <!-- MDB ESSENTIAL -->
-    <link rel="stylesheet" href="css/mdb.min.css" />
-    <!-- MDB PLUGINS -->
-    <link rel="stylesheet" href="plugins/css/all.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- Custom styles -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+  <!-- MDB ESSENTIAL -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <!-- MDB PLUGINS -->
+  <link rel="stylesheet" href="plugins/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Custom styles -->
 
 
-    <style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Noto+Serif+TC:wght@200..900&display=swap');
 
-        @import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Noto+Serif+TC:wght@200..900&display=swap');
+    body {
+      font-family: "Noto Serif TC", serif;
+    }
 
-        body {
-          font-family: "Noto Serif TC", serif;
-        }
+    .image-container img {
+      transition: filter 0.3s ease;
+      /* 使變灰階的過渡效果更加平滑 */
+    }
 
-        .image-container img {
-            transition: filter 0.3s ease; /* 使變灰階的過渡效果更加平滑 */
-        }
+    .image-container img:hover {
+      filter: grayscale(100%);
+      /* 鼠標懸停時變成灰階 */
+    }
+  </style>
+</head>
 
-        .image-container img:hover {
-            filter: grayscale(100%); /* 鼠標懸停時變成灰階 */
-        }
-    </style>
-  </head>
-
-  <body>
+<body>
 
 
 
 
 
 
-        <!-- navbar -->
+  <!-- navbar -->
 
 
   <!--Main Navigation-->
@@ -64,16 +60,19 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html" data-mdb-ripple-init data-mdb-ripple-unbound="true">主頁</a>
+            <a class="nav-link active" aria-current="page" href="index.html" data-mdb-ripple-init
+              data-mdb-ripple-unbound="true">主頁</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="index04.html" data-mdb-ripple-init data-mdb-ripple-unbound="true">冰淇淋影片</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="index12.html" data-mdb-ripple-init data-mdb-ripple-unbound="true">各國冰淇淋分析比較</a>
+            <a class="nav-link active" href="index12.html" data-mdb-ripple-init
+              data-mdb-ripple-unbound="true">各國冰淇淋分析比較</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="index07.html" data-mdb-ripple-init data-mdb-ripple-unbound="true">推薦個人化冰淇淋風味選擇</a>
+            <a class="nav-link active" href="index07.html" data-mdb-ripple-init
+              data-mdb-ripple-unbound="true">推薦個人化冰淇淋風味選擇</a>
           </li>
 
         </ul>
@@ -96,102 +95,32 @@
 
 
 
+  <section>
+    <!-- Intro -->
+    <!-- <div id="intro" class="bg-image vh-100 d-none d-xl-block d-flex align-item-end" style="background-image: url('./img/網頁封面.jpg');"> -->
+    <div id="intro" class="bg-image vh-100" style="background-image: url('./img/封面.jpg');">
+      <div class="mask" style="background-color: rgba(250, 182, 162, 0.15);"></div>
 
-
-
-
-
-          <!-- Container -->
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <div class="">
+        <h1 class="display-5 text-white mt-5 justify-content-end" style="font-weight: 900;">
+          整合心流體驗與短影音以探討義式冰淇淋製作學習網站之研究</h1>
+        <p class="lead font-weight-light mb-4 pb-2 fs-3 text-white mt-3" style="font-weight: 900;">組員：莊柔樺、黃瀅蓁、林妙姍</p>
+        <!-- <button class="btn btn-primary btn-lg" data-mdb-ripple-init>Make a reservation</button> -->
+      </div>
+    </div>
 
 
 
 
 
 
+    <!-- Intro -->
+  </section>
 
 
 
 
-
-
-
-
-
-
-
-          <!-- Container -->
-          <div class="container my-5 py-5">
-
-            <section>
-              <div class="row">
-
-                <!-- 左邊：圖片區（8欄） -->
-                <div class="col-lg-7 col-md-12">
-
-                  <div class="row">
-
-                    <div class="col-lg-6 col-md-6 mb-4">
-                      <p class="mb-4" style="font-size: 65px; color: pink;"><strong>
-                        各國冰淇淋<br>比較分析
-                        </strong>
-                      </p>
-                    </div>
-
-
-                    <div class="col-lg-6 col-md-6 mb-4">
-                      <div class="image-container">
-                        <img src="./img/義式冰淇淋.png" class="w-100"/>
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div class="row">
-
-                    <div class="col-lg-6 col-md-6 mb-4">
-                      <div class="image-container">
-                        <a href="index12 Fr.html">
-                          <img src="./img/法式冰淇淋.png" class="w-100"/>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 mb-4">
-                      <div class="image-container">
-                        <a href="index12 USA.html">
-                          <img src="./img/美式冰淇淋.png" class="w-100" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-
-                <!-- 右邊：文字區（4欄） -->
-                <div class="col-lg-5 col-md-12 text-justify lh-lg ps-lg-5">
-
-
-
-                    <h1 class="fw-bold mb-4 text-warning">義式冰淇淋</h1>
-
-                    <p class="mb-4" style="font-size: 25px;">
-                      義式冰淇淋以細膩且濃郁的口感為特色，質地緻密，脂肪含量較低。
-                      它強調使用天然食材，呈現食材的原味，與傳統冰淇淋不同，義式冰淇淋的冰凍感較輕盈，帶來柔和持久的風味。
-                      由於製作過程中攪拌速度較慢，空氣含量較少，使其口感更加緻密，充分展現每種食材的鮮明特徵。
-                    </p>
+  <!-- Container -->
 
 
 
@@ -201,12 +130,102 @@
 
 
 
-                </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Container -->
+  <div class="container my-5 py-5">
+
+    <section>
+      <div class="row">
+
+        <!-- 左邊：圖片區（8欄） -->
+        <div class="col-lg-7 col-md-12">
+
+          <div class="row">
+
+            <div class="col-lg-6 col-md-6 mb-4">
+              <p class="mb-4" style="font-size: 65px; color: #f79b77;"><strong>
+                  各國冰淇淋<br>比較分析
+                </strong>
+              </p>
+            </div>
+
+
+            <div class="col-lg-6 col-md-6 mb-4">
+              <div class="image-container">
+                <img src="./img/義式冰淇淋.png" class="w-100" />
               </div>
-            </section>
-
+            </div>
           </div>
+
+
+          <div class="row">
+
+            <div class="col-lg-6 col-md-6 mb-4">
+              <div class="image-container">
+                <a href="index12 Fr.html">
+                  <img src="./img/法式冰淇淋.png" class="w-100" />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 mb-4">
+              <div class="image-container">
+                <a href="index12 USA.html">
+                  <img src="./img/美式冰淇淋.png" class="w-100" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 右邊：文字區（4欄） -->
+        <div class="col-lg-5 col-md-12 text-justify lh-lg ps-lg-5">
+
+
+
+          <h1 class="fw-bold mb-4 text-warning">義式冰淇淋</h1>
+
+          <p class="mb-4" style="font-size: 25px;">
+            義式冰淇淋以細膩且濃郁的口感為特色，質地緻密，脂肪含量較低。
+            它強調使用天然食材，呈現食材的原味，與傳統冰淇淋不同，義式冰淇淋的冰凍感較輕盈，帶來柔和持久的風味。
+            由於製作過程中攪拌速度較慢，空氣含量較少，使其口感更加緻密，充分展現每種食材的鮮明特徵。
+          </p>
+
+
+
+
+
+
+
+
+
+        </div>
+
+      </div>
+    </section>
+
+  </div>
 
 
 
@@ -289,13 +308,14 @@
 
 
 
-  </body>
+</body>
 
-  <!-- MDB ESSENTIAL -->
-  <script type="text/javascript" src="js/mdb.umd.min.js"></script>
-  <!-- MDB PLUGINS -->
-  <script type="text/javascript" src="plugins/js/all.min.js"></script>
-  <!-- Custom scripts -->
-  <script type="text/javascript"></script>
-  <script src="script.js"></script>
+<!-- MDB ESSENTIAL -->
+<script type="text/javascript" src="js/mdb.umd.min.js"></script>
+<!-- MDB PLUGINS -->
+<script type="text/javascript" src="plugins/js/all.min.js"></script>
+<!-- Custom scripts -->
+<script type="text/javascript"></script>
+<script src="script.js"></script>
+
 </html>
