@@ -8,14 +8,16 @@
   <title>Material Design for Bootstrap</title>
   <!-- MDB icon -->
   <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
-  <!-- Font Awesome -->
+  <!--  Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   <!-- Google Fonts Roboto -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
   <!-- MDB ESSENTIAL -->
-  <link rel="stylesheet" href="css/mdb.min.css" />
+  <link rel="stylesheet" href="src/mdb/scss/mdb.pro.css" />
   <!-- MDB PLUGINS -->
   <link rel="stylesheet" href="plugins/css/all.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/mdb.pro.css" />
   <!-- Custom styles -->
   <!-- 字體 -->
   <style>
@@ -34,10 +36,9 @@
 
 
   <!--Main Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:#ffa477;">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
-      <i class="fas fa-video me-2 " style="color:#8f4c1f;"></i>
-      <h5 class="mt-2" style="color:#8f4c1f;">冰淇淋教學網站　</h5>
+      <i class="fas fa-video me-2 " style="color:#8f4c1f;"></i><h5 class="mt-2" style="color:#8f4c1f;">冰淇淋教學網站　</h5>
       <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
@@ -45,8 +46,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html" data-mdb-ripple-init
-              data-mdb-ripple-unbound="true">主頁</a>
+            <a class="nav-link active" aria-current="page" href="index.html" data-mdb-ripple-init data-mdb-ripple-unbound="true">主頁</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="index04.html" data-mdb-ripple-init data-mdb-ripple-unbound="true">冰淇淋製作</a>
@@ -281,14 +281,13 @@
   <!-- Remove the container if you want to extend the Footer to full width. -->
   <div class="container-fluid my-5">
 
-    <footer class="text-center text-lg-start text-white" style="background-color: #ffa477;">
+    <footer class="text-center text-lg-start text-white bg-primary">
 
       <!-- Section: Social media -->
-      <section class="d-flex justify-content-center justify-content-lg-between p-2 border-bottom"
-        style="background-color: #ec6f3e;">
+      <section class="d-flex justify-content-center justify-content-lg-between p-2 border-bottom" style="background-color: #ec6f3e;">
         <!-- Left -->
         <div class="me-5 mt-2 d-none d-lg-block">
-          <h3>網頁簡介</h3>
+        <h3>網頁簡介</h3>
         </div>
         <!-- Left -->
 
