@@ -5,7 +5,7 @@ HIGHLIGHTS
 - No attribution is required
 - You cannot redistribute MDB PRO files in public available spaces (e.g. public GitHub repos)
 - Project number limits & User number limits are defined by the tier you purchased
- 
+
 Paid packages are licensed according to the End User License Agreement (EULA) detailed below. By using products listed below (Product) from StartupFlow s.c. (MDB / MDBootstrap), you agree that this is a legally binding and valid contract and agree to be bound by it. You agree to abide by the intellectual property laws and all of the terms and conditions of this Agreement.
 
 I. RIGHTS
